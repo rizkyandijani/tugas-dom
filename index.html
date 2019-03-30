@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Rock Paper Scissors Game</title>
+        <link rel="stylesheet" href= './css/css.css'>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+        <div class="instruction">
+            <h3> How to play : </h3> <br>
+            <p>this game finish when one of the player reach score  of 3</p> <br>
+            <p> choose 1 of 3 choices to play against computer choice.<br><br>
+                1. Rock is win over scissors <br>
+                2. Paper wins over Rock <br>
+                3. Scissors wins over Paper
+            </p>
+        </div>
+        <div class="result">
+            <p>Let's Play!!</p>
+        </div>
+        
+                <a id="return" href="index.html">play again</a>
+            
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="hand.png" alt="" width="100px" height="100px">
+            </div>
+            <div class="choice" id="p">
+                <img src="hold.png" alt="" width="100px" height="100px">
+            </div>
+            <div class="choice" id="s">
+                <img src="peace.png" alt="" width="100px" height="100px">
+            </div>
+        </div>
+        <p id="action-message">Make your move.</p>
+        <div id="reset">
+            <a href="index.html">RESET</a>
+        </div>
+        <script>
+            function reset(){
+                window.location.reload
+            }
+        </script>
+        <script src='./js/domeJavascript.js' charset="utf-8"></script>
+    </body>
+</html>

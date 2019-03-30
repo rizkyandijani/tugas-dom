@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #284147 ;
+}
+header{
+    background: rgba(81, 180, 238, 0.5);
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto; 
+    border-radius: 20px;
+}
+header > h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    background: #ff2e00;
+    border-radius: 30px;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Raleway';
+    text-align: center;
+    position: relative;
+}
+
+.badge{
+    background: rgba(81, 180, 238, 0.5);
+    color: white;
+    font-size: 30px;
+    padding: 2px 10px;
+    font-family: 'Raleway';
+    border-radius: 15px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+}
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -115px;
+}
+.result {
+    font-size: 40px;
+    color: white;
+}
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    margin-top: 25px
+}
+.choices {
+    margin-top: 50px 0px;
+    text-align: center
+}
+.choice{
+    border: 4px solid white;
+    padding: 10px;
+    margin: 30px 20px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+#reset {
+    margin: 10px auto;
+    text-align: center;
+    width: 200px;
+    background: white;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+#reset a{
+    text-decoration: none;
+    /* border-radius: 20px; */
+
+
+}
+.instruction > h3 {
+    text-align: center
+}
+
+.instruction {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 200px;
+    background: rgba(81, 180, 238, 0.5);
+    padding: 10px;
+    width: 400px ;
+    height: 370px;
+    font-size: 25px; 
+    border: 4px solid white;
+    font-family: "Raleway"
+}
+
+/* .choice:hover{
+    cursor: pointer;
+    background: white
+} */
+#return {
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    font-size: 25px;
+    background: white;
+    display: none;
+    text-decoration: none;
+    font-family: 'Raleway'
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.green-glow{
+    border: 4px solid green;
+    box-shadow: 0 0 10px #0dff7c;
+}
+.red-glow{
+    border: 4px solid red;
+    box-shadow: 0 0 10px #ff2e00;
+}
+.gray-glow{
+    border: 4px solid gray;
+    box-shadow: 0 0 10px white;
+}
